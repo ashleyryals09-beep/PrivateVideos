@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Video Gallery</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 24px; }
+    h1 { margin: 0 0 16px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
+    .card { border: 1px solid #ddd; border-radius: 12px; padding: 12px; }
+    .title { font-weight: 600; margin: 0 0 8px; }
+    video { width: 100%; height: auto; border-radius: 10px; background: #000; }
+  </style>
+</head>
+<body>
+  <h1>My Videos</h1>
+
+  <div class="grid">
+    <div class="card"><p class="title">Video 1</p><video controls preload="none"><source src="videos/vid1.mp4" type="video/mp4"></video></div>
+    <div class="card"><p class="title">Video 2</p><video controls preload="none"><source src="videos/vid2.mp4" type="video/mp4"></video></div>
+    <div class="card"><p class="title">Video 3</p><video controls preload="none"><source src="videos/vid3.mp4" type="video/mp4"></video></div>
+    <div class="card"><p class="title">Video 4</p><video controls preload="none"><source src="videos/vid4.mp4" type="video/mp4"></video></div>
+    <div class="card"><p class="title">Video 5</p><video controls preload="none"><source src="videos/vid5.mp4" type="video/mp4"></video></div>
+    <div class="card"><p class="title">Video 6</p><video controls preload="none"><source src="videos/vid6.mp4" type="video/mp4"></video></div>
+    <div class="card"><p class="title">Video 7</p><video controls preload="none"><source src="videos/vid7.mp4" type="video/mp4"></video></div>
+    <div class="card"><p class="title">Video 8</p><video controls preload="none"><source src="videos/vid8.mp4" type="video/mp4"></video></div>
+    <div class="card"><p class="title">Video 9</p><video controls preload="none"><source src="videos/vid9.mp4" type="video/mp4"></video></div>
+    <div class="card"><p class="title">Video 10</p><video controls preload="none"><source src="videos/vid10.mp4" type="video/mp4"></video></div>
+  </div>
+</body>
+</html>
